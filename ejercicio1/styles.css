@@ -1,8 +1,18 @@
 .card {
+    display:inline-flexbox;
     margin: 10px;
     border: 3px solid black
 }
 .card .footer {
     background-color: aqua;
     padding: 10px;
+}
+.card__section1__img1{
+    height: 150px;
+}
+.card__section2__img2{
+    height: 150px;
+}
+.card__section3__img3{
+    height: 150px;
 }
