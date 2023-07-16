@@ -1,129 +1,76 @@
-*{
-    
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-}
-body{
-    width: 80%;
-    height: 80%;
-    justify-content: center;
-    align-items: center;
-}
-.container{
-    width: 80%;
-    height: 80%;
-    margin: 20px 20px;
-    }
-.card {
-    display:inline-flex;
-    justify-content: center;
-    width: 80%;
-    height: 80%;
-    margin: 20px;
-    margin-left: 20%;
-    border: solid rgb(39, 39, 242);
-    border-radius: 20px;
-    }
+html, body {
+    margin: 0;%
+    padding: 0;
 
-.card__section1__img1{
-    width: 70%;
-    height: 200px;
-    background-color: #ecedf1;
-    }
-.card__section2__img2{
-    width: 70%;
-    height: 200px;
-    background-color: #ecedf1
-    }
-.card__section3__img3{
-    width: 70%;
-    height: 200px;
-    background-color: #ecedf1
-    }
-h1{
-    width: 80%;
-    height: 80;
-    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    margin top: 100px;
+    font-weight: 100
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    with: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    box-shadow: 0px 1px 10px rgb(39, 39, 242);
-    cursor: default;
-    transition: all 2900ms ease;
-
-    display:inline-flex;
-    justify-content: center;
-    width: 80%;
-    height: 80%;
     margin: 20px;
-    margin-left: 20%;
-    border: solid rgb(39, 39, 242);
-    border-radius: 20px;
-     }
-     
-    .section1{
-       margin: 20px;
-       padding: 20px;
-       display: block;
-       text-align: center;
-       border: solid rgb(39, 39, 242);
-       overflow: hidden;
-    box-shadow: 0px 1px 10px rgb(39, 39, 242);
-    cursor: default;
-    transition: all 700ms ease;
-    line-height: 1.5;
-    border-radius: 20px;
-    }
-    .card:hover{
-        box-shadow: 0px 1px 10px rgb(39, 39, 242);
-        transform: translateY(-4%);
-    }
-    .section2{
-        margin: 20px;
-       padding: 20px;
-        display: block;
-        text-align: center;
-        border: solid rgb(39, 39, 242);
-        overflow: hidden;
-    box-shadow: 0px 1px 10px rgb(39, 39, 242);
-    cursor: default;
-    transition: all 700ms ease;
-    line-height: 1.5;
-    border-radius: 20px;
-        }
-        .card:hover{
-            box-shadow: 0px 1px 10px rgba(39, 39, 242);
-            transform: translateY(-4%);
-        }
-     .section3{
-        margin: 20px;
-        padding: 20px;
-        display: block;
-        text-align: center;
-        border: solid rgb(39, 39, 242);
-        overflow: hidden;
-    box-shadow: 0px 1px 10px rgb(39, 39, 242);
-    cursor: default;
-    transition: all 700ms ease;
-    line-height: 1.5;
-    border-radius: 20px;
-     }
-     .card:hover{
-        box-shadow: 0px 1px 10px rgb(39, 39, 242);
-        transform: translateY(-4%);
-    }
-     .card__section1__h3{
-        color: rgb(39, 39, 242);
-        font-size: medium;
-        font-family:Arial, Helvetica, sans-serif;
-    }
+    text-align: center;
+    transition: all 0.25s;
+}
+.container .card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
 
-     .card__section2__h3{
-        font-size: medium;
-        color: rgb(39, 39, 242);
-        font-family:Arial, Helvetica, sans-serif;
-     }
-     .card__section3__h3{
-        font-size: medium;
-        color: rgb(39, 39, 242);
-        font-family:Arial, Helvetica, sans-serif;
-     }
+.container .card img {
+    width: 330px;
+    height: 180px;
+}
+
+.container .card h4 {
+    font-weight: 600;
+}
+
+.container .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: blue;
+}
+.container .card h4 {
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-family: 'Oswald', sans-serif;
+    color: blue;
+}
+
+.container .card p {
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-family: 'Oswald', sans-serif;
+    color: blue;
+}
