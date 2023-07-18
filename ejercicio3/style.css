@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.form {
+    width: 500px;
+    padding-top: 20px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+}
+.form h3{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700 italic;
+    color: #04146c;
+    font-size: 24px;
+    
+}
+.control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.form p {
+   height: 10px; 
+   text-align: center;
+   margin-top: 18px;
+   font-weight: 400;
+   font-size: 18,666666666666664px;
+   color: #0a2ff1;
+   text-decoration: none;
+}
+
+.form .boton {
+    width: 524px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+}
+hr {
+    margin-top: 18px;
+    width: 524px;
+}
+a:link{ 
+    text-decoration: none; 
+}
+p{
+    
+}
