@@ -1,0 +1,71 @@
+body{
+    min-height: 100vh;
+    background-image: url(./imagenes/M4-desafio1-fondo.png);
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.container{
+    background-image: url(./imagenes/M4-desafio1-fondo-form.png);
+    background-size: auto;
+    height: 380px;
+    width: 800px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    }
+
+form {
+    margin: 0 auto;
+    height: 400px;
+    padding: 20px;
+    color: #04146c;
+    background-color: aliceblue;
+    
+    
+}
+
+.formulario{
+    width: 600px;
+    height: 300px;
+}
+
+.field {
+    border: 1px solid #414166;
+    width: 98%;
+    padding: 10px;
+}
+input, textarea{
+    border: 0;
+    width: 100%;
+}
+
+.field:focus{
+    border-color: rgb(232, 247, 22);
+}
+.centro{
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    height: 100px;
+}
+p{
+    
+    height: 20px;
+    background-color: #15163d;
+    
+}
+.relleno{
+    background-color: #15163d;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 22,666666666666664px;
+}
+h1{
+    text-align: center;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
