@@ -1,0 +1,47 @@
+.{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: 'Roboto Flex', sans-serif;
+}
+.header .img1 {
+	width: 800px;
+	height: 180px;
+	border: 2px solid #fff;
+    display: flexbox;
+    } 
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.titulo {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margi
+    color: #252323e8;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+
+    mix-blend-mode sccreem
+}
+
+
+ .main {
+    margin-top: 5px;
+    width: 40%;
+ }
+
+ .main .img2 {
+    width: 90%;
+ }
+.container {
+    dis
+}
