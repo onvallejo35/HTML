@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <form action="codigo.php" method="post">
+        <nav class="navbar">
+            <img src="./imagenes/M5-logo-azul.svg" alt="">
+            <a href="#">HOME</a>
+            <a href="#">CONTACTO</a>
+        </nav>
+        <h2>¿Querés que nos contactemos como vos?</h2>
+        <h4>Dejanos tu consulta:</h4>
+        <label class="nombre" for="nombre">Nombre completo<span>*</span>
+            <div>   
+                <input id="nombre" type="text" valor="nombre">
+            </div>
+        </label>
+        <label class="email" for="email">Email<span>*</span>
+            <div>
+                <input id="email" type="email" id="email" name="email" placeholder="joseperez@gmail.com">
+            </div>
+        </label>
+                <label class="comentario">Comentario<span>*</span> <br>
+                <textarea class="comentario" name="comentario" type="text" valor="Mensaje"></textarea>
+                </label>
+          
+      
+        <br>
+        <div id="botones">
+            <input class="boton-reset" type="reset" value="Resetear">
+            <input class="boton-submit" type="submit" value="Enviar">
+        </div>
+
+    </form>
+</body>
+</html>

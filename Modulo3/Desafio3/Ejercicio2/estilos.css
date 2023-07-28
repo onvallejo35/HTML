@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+form {
+    border: 2px solid red;
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+}
+
+
+img {
+    width: 5%;
+}
+
+#nombre {
+    width: 500px;
+    height: 50px;
+}
+
+#email {
+    width: 500px;
+    height: 50px;
+}
+
+.comentario {
+    width: 500px;
+    height: 100px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 45.3px;
+    color: #2c00cc;
+}
+
+h4 {
+    font-weight: regular 400;
+    font-size: 30.6px;
+    color: #04146c;
+}
+
+.nombre {
+    font-weight: 700;
+    font-size: 30.6px;
+    color: #04146c;
+}
+
+.email {
+    font-weight: 700;
+    font-size: 30.6px;
+    color: #04146c;
+}
+
+.comentario {
+    font-weight: 700;
+    font-size: 30.6px;
+    color: #04146c;
+}
+
+.boton-reset {
+    font-weight: slab 700;
+    font-size: 32px;
+    background-color: #f98500;
+    color: white;
+    border-radius: 5px;
+}
+
+.boton-submit {
+    font-weight: slab 700;
+    font-size: 32px;
+    background-color: #2c00cc;
+    color: white;
+    margin-left: 5%;
+}
+
+span {
+    color: #f10909;
+}
