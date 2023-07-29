@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 1em;
+    margin: auto;
+
+
+    
+}
+
+img {
+    width: 25%;
+}
+
+.col {
+    width: 20%;
+    padding: 1em;
+    background-color: #eff2ff;
+    display:flexbox;
+    text-align: center;
+}
+
+h1 {
+    font-size: 120px;
+    color: #0a2ff1;
+    font-family: coolvetica;
+}
+
+h2 {
+    font-size: 30px;
+    color: #0a2ff1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    font-size: 24px;
+    color: #04146c;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#apple {
+    width: 18%;
+}
+
+@font-face {
+    font-family:coolvetica;
+    src: url(./fuentes/coolvetica\ rg\ \(2\).otf);
+}
