@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+
+    width: 100%;
+    margin: auto;
+    padding: 4%;
+    display: block;
+    padding-top: 5%;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width:30%;
+}
+
+.col-4 {
+    margin: 2%;
+    padding: 2%;
+    background-color: #eff2ff;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+@font-face {
+    font-family:coolvetica;
+    src: url(./fuentes/coolvetica\ rg.otf);
+}
+
+h1{
+    font-family: coolvetica;
+    font-size: 80px;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    color: #0a2ff1;
+}
+
+h3 {
+    font-family: ligth;
+    font-weight: 300;
+    font-size: 30px;
+    
+    margin-bottom: 2%;
+    margin-left: 4%;
+    color: #04146c;
+}
+
+h4 {
+    font-family: ligth;
+    font-weight: 300;
+    font-size: 20px;
+    color: #04146c;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+h5 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #04146c;
+    padding-top: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+p {
+    font-size: 18px;
+    color: #04146c;
+    
+}
+
+.col-4 {
+    margin: auto;
+}
