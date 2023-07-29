@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 3%;
+    justify-content: center;
+}
+
+.col {
+    text-align: center;
+    margin-left: 8%;
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url(./fuentes/coolvetica\ rg.otf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(./fuentes/Roboto-Light.ttf);
+}
+
+h1 {
+    font-family: coolvetica;
+    font-weight: 400;
+    font-size: 120px;
+    color: #0a2ff1;
+}
+
+p { 
+    font-size: 40px;
+    font-family: Roboto-light;
+    color: #04146c;    
+}
+
+.boton-submit1 {
+    font-size: 40px;
+    background-color: #0a2ff1;
+    color: white;
+    border-radius: 5px;
+}
+
+.boton-submit2 {
+    font-size: 40px;
+    color: #04146c;
+    border: 2px solid blue;
+    margin-top: 20px;
+    border-radius: 5px;
+}
