@@ -15,10 +15,8 @@ body {
 
     width: 100%;
     margin: auto;
-    padding: 4%;
+    padding: 1%;
     display: block;
-    padding-top: 5%;
-    
 }
 
 .row {
@@ -45,7 +43,7 @@ img {
 
 h1{
     font-family: coolvetica;
-    font-size: 80px;
+    font-size: 120px;
     margin-bottom: 2%;
     margin-left: 4%;
     color: #0a2ff1;
@@ -54,7 +52,7 @@ h1{
 h3 {
     font-family: ligth;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 40px;
     
     margin-bottom: 2%;
     margin-left: 4%;
@@ -72,7 +70,7 @@ h4 {
 
 h5 {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 24px;
     color: #04146c;
     padding-top: 1px;
     margin-top: 2px;
@@ -80,7 +78,7 @@ h5 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 24px;
     color: #04146c;
     
 }
